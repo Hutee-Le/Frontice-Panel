@@ -242,8 +242,8 @@ const TaskUpdatePage = () => {
       }),
       {
         pending: "Đang thực hiện đăng tải thử thách...",
-        success: "Đăng tải thử thách thất bại",
-        error: "Đăng tải thử thách thành công",
+        success: "Đăng tải thử thách thành công",
+        error: "Đăng tải thử thách thất bại",
       },
     );
   };

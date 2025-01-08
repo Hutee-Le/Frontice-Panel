@@ -19,7 +19,7 @@ import axiosClient from '../axios/axiosClient';
 import constantRoutesAuth from '../constants/routes/authentication';
 import constantRoutesGlobal from '../constants/routes/global';
 
-const TIMEOUT_REQUEST = 15000;
+// const TIMEOUT_REQUEST = 15000;
 
 interface IConditionCallBack {
   _retry: boolean;

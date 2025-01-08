@@ -40,9 +40,9 @@ const onRequest = (
     headers['Authorization'] = `Bearer ${accessToken}`;
   }
 
-  if (method === 'get') {
-    config.timeout = TIMEOUT_REQUEST;
-  }
+  // if (method === 'get') {
+  //   config.timeout = TIMEOUT_REQUEST;
+  // }
 
   return config;
 };
